@@ -1,0 +1,455 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0752b086-4e2c-42cb-bb17-172dc3f5e1fc")
+	(paper "A4")
+	(title_block
+		(title "ECG Acquisition Board")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2201a1-b63e-44af-abee-fcfd053ab494")
+	)
+	(wire
+		(pts
+			(xy 123.19 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1786b73a-e66c-4637-b443-047b2536cc36")
+	)
+	(wire
+		(pts
+			(xy 123.19 91.44) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f40035-e149-485f-995b-688ad3c5101a")
+	)
+	(wire
+		(pts
+			(xy 123.19 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c95f61-fbc9-4abf-b310-4c79a8da0a38")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3deead24-43ac-48b6-90d6-2ec3937e1a6e")
+	)
+	(wire
+		(pts
+			(xy 163.83 96.52) (xy 176.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cbe23d-0f3d-4189-9c5c-b4f489380f6e")
+	)
+	(wire
+		(pts
+			(xy 163.83 93.98) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e0d76f-c3d7-43e3-94a0-e67ecb9f1016")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b65e05-5148-4766-8696-a99d07effd0f")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 138.43 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaf50f3-d637-4d42-9a7b-08da29a2752e")
+	)
+	(sheet
+		(at 22.098 182.372)
+		(size 29.972 6.096)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24cb3142-2f6d-4238-9750-ba61444ac777")
+		(property "Sheetname" "Block diagram & Power budget"
+			(at 22.098 181.6604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_diagram.kicad_sch"
+			(at 22.098 189.0526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECG Acquisition Board"
+				(path "/0752b086-4e2c-42cb-bb17-172dc3f5e1fc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 88.9)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f6c2c50-f600-47b2-9b63-039d11861e9e")
+		(property "Sheetname" "USB Isolation & Power"
+			(at 176.53 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB & Power.kicad_sch"
+			(at 176.53 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DD_N" bidirectional
+			(at 176.53 93.98 180)
+			(uuid "c76dbdfb-b545-4e1f-ad07-4e4296ef4e27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DD_P" bidirectional
+			(at 176.53 96.52 180)
+			(uuid "4190fcbc-2789-4909-b10b-26043f634fcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ECG Acquisition Board"
+				(path "/0752b086-4e2c-42cb-bb17-172dc3f5e1fc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 82.55)
+		(size 25.4 33.782)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74a4e0c9-4c8b-445d-9bf9-1ea7b7f8d93c")
+		(property "Sheetname" "MCU & Digital Interface"
+			(at 138.43 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 138.43 116.9166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_CS" output
+			(at 138.43 91.44 180)
+			(uuid "1fe77521-e139-4b74-9217-99befad954f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_DIN" output
+			(at 138.43 93.98 180)
+			(uuid "9a5e7967-cc5e-4aaa-a33e-01677d5587c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_DOUT" input
+			(at 138.43 96.52 180)
+			(uuid "3d6c4be3-1c25-4597-b6e6-30160a37f88a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_DRDY" input
+			(at 138.43 99.06 180)
+			(uuid "cc033314-7ecb-452e-9ccf-02ffa9f94631")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_RESET" output
+			(at 138.43 109.22 180)
+			(uuid "1cda2de0-a140-4443-b8ba-1db4e8ea2d7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_SCLK" output
+			(at 138.43 101.6 180)
+			(uuid "0a5078a0-2df4-4c69-86b5-fb34b233bff5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_START" output
+			(at 138.43 106.68 180)
+			(uuid "c3c8d3d4-ddce-4c90-bd82-1c2e0a23bea6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DD_N" bidirectional
+			(at 163.83 93.98 0)
+			(uuid "8c7928b4-62b9-4b9c-99a6-2ed6509ee883")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DD_P" bidirectional
+			(at 163.83 96.52 0)
+			(uuid "24ea1be5-bb67-47b8-81b5-bbc4fbe5020c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ECG Acquisition Board"
+				(path "/0752b086-4e2c-42cb-bb17-172dc3f5e1fc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.394 87.63)
+		(size 18.796 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1e3e409-fdc0-46c0-9a57-433d684f41f0")
+		(property "Sheetname" "ECG AFE"
+			(at 104.394 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ECG_AFE.kicad_sch"
+			(at 104.394 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_CS" input
+			(at 123.19 91.44 0)
+			(uuid "5043e9ff-ab17-4ae6-8b74-f892be45d6f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_DIN" input
+			(at 123.19 93.98 0)
+			(uuid "2eb1d603-c7cf-490c-81e1-ccf62ce3d86a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_DOUT" output
+			(at 123.19 96.52 0)
+			(uuid "d0387c73-7262-4d5e-8137-30c5b79691ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_DRDY" output
+			(at 123.19 99.06 0)
+			(uuid "a0383081-f9bc-4a72-b08d-b2b2fa64f9fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_RESET" input
+			(at 123.19 109.22 0)
+			(uuid "74613729-4de4-459a-988d-bdeab6d4b9cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SCLK" input
+			(at 123.19 101.6 0)
+			(uuid "ec0a202e-8ffc-47a0-9f27-2a5557dde710")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_START" input
+			(at 123.19 106.68 0)
+			(uuid "8d69a5f3-cd1d-4b39-b360-658ec7f4e712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ECG Acquisition Board"
+				(path "/0752b086-4e2c-42cb-bb17-172dc3f5e1fc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
